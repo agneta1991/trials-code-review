@@ -1,5 +1,5 @@
-body{
-  background-color:aliceblue;
+body {
+  background-color: aliceblue;
 }
 
 #main-page {
@@ -17,7 +17,6 @@ body{
 }
 
 #navbar {
-  position: fixed;
   padding: 8px;
   display: flex;
   flex-direction: column;
@@ -25,21 +24,23 @@ body{
   border: solid black;
   height: 100%;
   line-height: 70px;
+  position: fixed;
 }
 
-#navbar>a{
+#navbar > a {
   color: grey;
 }
 
-.main-section >header{
+.main-section > header {
   font-weight: bolder;
   font-size: larger;
 }
-#navbar>header{
+
+#navbar > header {
   font-size: larger;
 }
 
-.function{
+.function {
   background-color: lightgrey;
   width: 450px;
   padding: 15px;
